@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in active_record-quick_clone.gemspec
+# Specify your gem's dependencies in quick_clone.gemspec
 gemspec

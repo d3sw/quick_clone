@@ -1,4 +1,4 @@
-# ActiveRecord::QuickClone [![Build Status](https://travis-ci.org/aalvarado/active_record-quick_clone.svg?branch=master)](https://travis-ci.org/aalvarado/active_record-quick_clone)
+# QuickClone [![Build Status](https://travis-ci.org/d3sw/quick_clone.svg?branch=master)](https://travis-ci.org/d3sw/quick_clone) [![Coverage Status](https://coveralls.io/repos/github/d3sw/quick_clone/badge.svg?branch=master)](https://coveralls.io/github/d3sw/quick_clone?branch=master)
 
 Quickly clone an ActiveRecord object by providing a filter of attributes names.
 
@@ -7,7 +7,7 @@ Quickly clone an ActiveRecord object by providing a filter of attributes names.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'active_record-quick_clone'
+gem 'quick_clone'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install active_record-quick_clone
+    $ gem install quick_clone
 
 ## Usage
 
@@ -52,5 +52,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/active_record-quick_clone.
+Bug reports and pull requests are welcome on GitHub at https://github.com/d3dw/quick_clone.
 

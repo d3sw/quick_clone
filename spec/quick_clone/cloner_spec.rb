@@ -1,4 +1,4 @@
-describe ActiveRecord::QuickClone::Cloner do
+describe QuickClone::Cloner do
   let(:user_name) { 'bitshifter' }
   let(:user_alias) { 'teamsleep' }
   let(:user) { User.create name: user_name, alias: user_alias }

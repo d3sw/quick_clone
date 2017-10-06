@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'active_record/quick_clone/version'
+require 'quick_clone/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "active_record-quick_clone"
-  spec.version       = ActiveRecord::QuickClone::VERSION
+  spec.name          = "quick_clone"
+  spec.version       = QuickClone::VERSION
   spec.authors       = ["Adan Alvarado"]
   spec.email         = ["adan.alvarado7@gmail.com"]
   spec.summary       = %q{Provide a simple way of cloning ActiveRecord Records}
-  spec.homepage      = "https://github.com/aalvarado/active_record-quick_clone"
+  spec.homepage      = "https://github.com/aalvarado/quick_clone"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
@@ -27,6 +27,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "activerecord", ">= 4.0", "< 6.0"
 
+  spec.add_development_dependency "coveralls"
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "pry"
   spec.add_development_dependency "rake", "~> 10.0"
