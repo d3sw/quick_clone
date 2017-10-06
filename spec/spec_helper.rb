@@ -1,10 +1,11 @@
 require 'bundler/setup'
 require 'active_record'
-require 'active_record/quick_clone'
+require 'quick_clone'
 require 'support/schema'
 require 'support/models'
-require 'pry'
 
+require 'coveralls'
+Coveralls.wear!
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
