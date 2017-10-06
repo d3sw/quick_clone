@@ -1,4 +1,4 @@
-# ActiveRecord::QuickClone
+# ActiveRecord::QuickClone [![Build Status](https://travis-ci.org/aalvarado/active_record-quick_clone.svg?branch=master)](https://travis-ci.org/aalvarado/active_record-quick_clone)
 
 Quickly clone an ActiveRecord object by providing a filter of attributes names.
 
