@@ -1,4 +1,4 @@
-# QuickClone [![Build Status](https://travis-ci.org/d3sw/quick_clone.svg?branch=master)](https://travis-ci.org/d3sw/quick_clone) [![Coverage Status](https://coveralls.io/repos/github/d3sw/quick_clone/badge.svg?branch=master)](https://coveralls.io/github/d3sw/quick_clone?branch=master)
+# QuickClone [![Build Status](https://travis-ci.org/d3sw/quick_clone.svg?branch=master)](https://travis-ci.org/d3sw/quick_clone) [![Coverage Status](https://coveralls.io/repos/github/d3sw/quick_clone/badge.svg?branch=master)](https://coveralls.io/github/d3sw/quick_clone?branch=master) [![Code Climate](https://codeclimate.com/github/d3sw/quick_clone/badges/gpa.svg)](https://codeclimate.com/github/d3sw/quick_clone)
 
 Quickly clone an ActiveRecord object by providing a filter of attributes names.
 
