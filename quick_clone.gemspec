@@ -10,6 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["adan.alvarado7@gmail.com"]
   spec.summary       = %q{Provide a simple way of cloning ActiveRecord Records}
   spec.homepage      = "https://github.com/d3sw/quick_clone"
+  spec.license       = 'Apache 2.0'
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
